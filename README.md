@@ -19,11 +19,13 @@ bool keepGoing true
 int horses[5]={0,0,0,0,0}
 
 while(keepgoing):
-  for(int i=0, i > 5, i++):
+  for(int i=0, i < 5, i++):
     advance(i,horses[i])
     printLane(i,horses[i])
     if(isWinner(i,horses[i])):
       keepGoing=false
+  print Press enter for another turn
+  cin enter
 
 return 0
 ```
@@ -35,7 +37,7 @@ if (coin == 1):
 ```
 ## printLane
 ```
-for(int j=0, j > LANENUM, j++):
+for(int j=0, j < LANENUM, j++):
   if(horses[horsesNum]==j):
     print horseNum
   else:

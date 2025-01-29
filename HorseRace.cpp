@@ -21,6 +21,8 @@ int main(){
         keepGoing=false;
       } // end isWinner if
     }// end for loop
+    std::cout << "Press enter for another turn";
+    std::cin.get();
   }// end keepgoing loop
   return 0;
 }// end main
